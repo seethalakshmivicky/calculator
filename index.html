@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Javascript-Calculator</title>  
+		<link rel="stylesheet" href="style.css"> 
+		
+    </head>
+    <body>
+	  <h1>Calculator</h1>
+     <div class="container">
+	 <table>
+        <tr><td><input type='text' id='result' class ='screen'></td>
+            <td><input type='button' value = 'C' onclick="clearScreen()" class="clear"/></td>
+        </tr>
+
+    </table>
+
+    <div class="keys">
+	<div class="values">
+    <input type="button" value="7" class="button" onClick="display('7')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="8" class="button " onClick="display('8')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="9" class="button" onClick="display('9')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="/" class="operator" onClick="display('/')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="4" class="button" onClick="display('4')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="5" class="button" onClick="display('5')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="6" class="button" onClick="display('6')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="*" class="operator" onClick="display('*')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="1" class="button" onClick="display('1')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="2" class="button" onClick="display('2')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="3" class="button" onClick="display('3')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="-" class="operator" onClick="display('-')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="0" class="button" onClick="display('0')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="." class="button" onClick="display('.')"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value= "=" class="button equal-sign" onClick="solve()"></input>
+	</div>
+	
+	<div class="values">
+    <input type="button" value="+" class="operator" onClick="display('+')"></input>
+	</div>
+
+</div> 
+</div>
+    <script type="text/javascript" src="script.js"></script>  
+	</body>
+</html>	
